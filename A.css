@@ -1,0 +1,98 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+.ads{
+    position: absolute;
+    top: 42.5%;
+    left: 48.5%;
+}
+.color{
+    color: rgba(49,97,241,1);
+    cursor: pointer;
+}
+.btn{
+    background: transparent;
+    border: none !important;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Open Sans;
+    background: linear-gradient(to left, #2193b0, #6dd5ed);
+}
+.Con{
+    position: absolute;
+    top: 18%;
+    left: 65%;
+}
+br{
+    user-select: none;
+    line-height: 50%;
+}
+label{
+    font-family: Open Sans;
+    font-weight: SemiBold;
+    font-size: 20px;
+    user-select: none;
+}
+p{
+    font-family: Open Sans;
+    font-weight: SemiBold;
+    font-size: 20px;
+}
+h1{
+    font-family: Open Sans;
+    font-weight: SemiBold;
+}
+.ipbox{
+    width: 300px;
+    height: 30px;
+    background: rgba(242,246,255,1);
+    border: solid rgba(242, 246, 255, 1);
+    border-radius: 100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10000000149011612);
+    overflow: hidden;
+    font-family: Open Sans;
+    font-weight: Regular;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    transition: all 0.5s;
+    user-select: none;
+}
+.ipbox:hover{
+    border: solid rgb(122, 148, 241);
+    transition: all 0.3s;
+}
+input:focus { 
+    outline: none;
+    border-color: rgb(67, 108, 234);
+}
+::placeholder {
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+input:focus::placeholder {
+    color: transparent;
+    --s: 0.1em;   
+    --c: black; 
+    padding-bottom: var(--s);
+    background: 
+    linear-gradient(90deg,var(--c) 50%,rgba(242,246,255,1) 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+    background-clip: text,padding-box;
+    transition: 1s;
+}
+
+.submit {
+    width: 200px;
+    height: 30px;
+    background: rgba(49,97,241,1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    border: solid rgba(49, 97, 241, 1);
+    border-radius: 100px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10000000149011612);
+    overflow: hidden;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="A.css">
+        <title>Test</title>
+    </head>
+    <body>
+        <form action="Welcome.php" method="Post"><br>
+            <label>Name:</label>
+            <input type="text" class="ipbox" name="Usn" placeholder="Name"><br><br>
+            <label>Email:</label>
+            <input type="email" class="ipbox" name="Email" placeholder="Email"><br><br>
+            <label>Gender:</label>
+            <input type="radio" value="0" name="Gender"><label  >Male</label><input type="radio" value="0" name="Gender"><label  >Female</label><br><br>
+            <label>Address:</label>
+            <select name="province">
+                <option value="HaNoi">Hà Nội</option>
+                <option value="HaiPhong">HaiPhong</option>
+                <option value="BacNinh">BacNinh</option>
+            </select><br><br>
+            <label>Fav:</label>
+                <input type="checkbox" value="Football" name="hobby[]">Football
+                <input type="checkbox" value="Basketball" name="hobby[]">Basketball
+                <input type="checkbox" value="Tenis" name="hobby[]">Tenis
+            <br><br><input type="submit" class="submit" value="Regsiter">
+        </form>
+    </body>
+</html>
